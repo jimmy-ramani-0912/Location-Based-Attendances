@@ -1,0 +1,188 @@
+.single {
+  display: flex;
+  width: 100%;
+  .singleContainer {
+    flex: 6;
+
+    .top {
+      padding: 20px;
+      display: flex;
+      gap: 20px;
+
+      .left {
+        flex: 1;
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+        padding: 20px;
+        position: relative;
+
+        .editButton {
+          position: absolute;
+          top: 0;
+          right: 0;
+          padding: 5px;
+          font-size: 12px;
+          color: #7451f8;
+          background-color: #7551f818;
+          cursor: pointer;
+          border-radius: 0px 0px 0px 5px;
+        }
+
+        .item {
+          display: flex;
+          gap: 20px;
+
+          .itemImg {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+          }
+
+          .details {
+            .itemTitle {
+              margin-bottom: 10px;
+              color: #555;
+            }
+
+            .detailItem {
+              margin-bottom: 10px;
+              font-size: 14px;
+
+              .itemKey {
+                font-weight: bold;
+                color: gray;
+                margin-right: 5px;
+              }
+
+              .itemValue {
+                font-weight: 300;
+              }
+            }
+          }
+        }
+      }
+
+      .right {
+        flex: 2;
+      }
+    }
+
+    .bottom {
+      -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+      box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+      padding: 20px;
+      margin: 10px 20px;
+    }
+
+    .title {
+      font-size: 16px;
+      color: lightgray;
+      margin-bottom: 20px;
+    }
+
+    // .details {
+    //   padding: 10px 80px 20px;
+
+    //   .subtitle {
+    //     padding-left: 5px;
+    //   }
+    // }
+
+    .detailsdisplay {
+      .details {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 30px 0;
+
+        .big-img {
+          max-width: 500px;
+          min-width: 290px;
+          overflow: hidden;
+          margin: 25px;
+
+          img {
+            width: 100%;
+            height: 100%;
+            max-height: 400px;
+            display: block;
+            object-fit: cover;
+          }
+        }
+
+        .box {
+          max-width: 500px;
+          min-width: 290px;
+          margin: 25px;
+
+          .row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+
+            h2 {
+              text-transform: uppercase;
+              letter-spacing: 2px;
+            }
+          }
+          p {
+            line-height: 1.5;
+            margin: 15px 0;
+          }
+
+          .thumb {
+            width: 100%;
+            height: 100px;
+            display: flex;
+            cursor: pointer;
+            margin: 10px 0;
+
+            img {
+              width: 90px;
+              height: 100%;
+              display: block;
+              object-fit: cover;
+              border: 1px solid #ddd;
+              margin-right: 5px;
+              opacity: 0.7;
+              border-radius: 5px;
+            }
+            img.active {
+              opacity: 1;
+              border: 1px solid lightseagreen;
+            }
+          }
+
+          .tourprice {
+            font-size: 15px;
+
+            .curr-price {
+              margin-left: 5px;
+              font-size: 20px;
+              font-weight: 600;
+              color: red;
+            }
+          }
+        }
+      }
+
+      .description{
+        padding-left: 70px;
+        
+        p{
+          padding: 15px;
+        }
+      }
+    }
+  }
+}
+
+// @media (max-width: 500px){
+//   .thumb{
+//     height: 50px;
+//   }
+//   .thumb img{
+//     width: 50px;
+//   }
+// }

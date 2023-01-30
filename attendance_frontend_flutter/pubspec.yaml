@@ -1,0 +1,43 @@
+name: attendance_frontend_flutter
+description: FrontEnd Using Flutter For Attendace Location Based
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_keyboard_visibility: ^5.2.0
+  shared_preferences: ^2.0.13
+  month_year_picker: ^0.1.0+1
+  cupertino_icons: ^1.0.2
+  http: ^0.13.1
+  font_awesome_flutter: ^10.1.0
+  slide_to_act: ^2.0.1
+  intl: ^0.17.0
+  location: ^4.4.0
+  image_picker: ^0.8.5
+  geolocator: ^8.2.0
+  geocoding: ^2.0.4
+  network_info_plus: ^2.1.4+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+    - family: NexaBold
+      fonts:
+        - asset: assets/fonts/NexaBold.otf
+    - family: NexaRegular
+      fonts:
+        - asset: assets/fonts/NexaRegular.otf

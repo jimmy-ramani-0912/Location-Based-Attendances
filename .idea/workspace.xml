@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cc5d663f-d3a1-4d52-b7c1-2b7d4b06b07e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/attendance_backend_api/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attendance_backend_api/Controllers/AuthControllers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attendance_backend_api/Controllers/EmployeesControllers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attendance_backend_api/Controllers/VerifyDetailController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attendance_backend_api/Models/UsersModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attendance_backend_api/Models/VerifyDetailsModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attendance_backend_api/Routes/AttendanceRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attendance_backend_api/Routes/AuthRoute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attendance_backend_api/Routes/EmployeeRoute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attendance_backend_api/Routes/VerifyDetailRoute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attendance_backend_api/Utils/Error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attendance_backend_api/Utils/VerifyToken.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attendance_backend_api/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attendance_backend_api/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attendance_backend_api/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attendance_frontend_flutter/lib/NodeJS_API/Api.dart" beforeDir="false" afterPath="$PROJECT_DIR$/attendance_frontend_flutter/lib/NodeJS_Api/Api.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attendance_frontend_flutter/lib/NodeJS_Models/LoginModel.dart" beforeDir="false" afterPath="$PROJECT_DIR$/attendance_frontend_flutter/lib/NodeJS_Models/LoginModel.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attendance_frontend_flutter/lib/NodeJS_Models/VerifyDetailModel.dart" beforeDir="false" afterPath="$PROJECT_DIR$/attendance_frontend_flutter/lib/NodeJS_Models/VerifyDetailModel.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attendance_frontend_flutter/lib/Screens/Attendance/AttendaceHistory.dart" beforeDir="false" afterPath="$PROJECT_DIR$/attendance_frontend_flutter/lib/Screens/Attendance/AttendaceHistory.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attendance_frontend_flutter/lib/Screens/Attendance/CheckInCheckOutScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/attendance_frontend_flutter/lib/Screens/Attendance/CheckInCheckOutScreen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attendance_frontend_flutter/lib/Screens/Authentication/LoginScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/attendance_frontend_flutter/lib/Screens/Authentication/LoginScreen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attendance_frontend_flutter/lib/Screens/EmployeeDetail/Profile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/attendance_frontend_flutter/lib/Screens/EmployeeDetail/Profile.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attendance_frontend_flutter/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/attendance_frontend_flutter/pubspec.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2L2cGTt7rLppvbHltDKQIVhZQYY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc5d663f-d3a1-4d52-b7c1-2b7d4b06b07e" name="Changes" comment="" />
+      <created>1675072522040</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675072522040</updated>
+    </task>
+    <servers />
+  </component>
+</project>

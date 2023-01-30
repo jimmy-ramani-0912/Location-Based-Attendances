@@ -1,0 +1,42 @@
+.btn-primary {
+    color: #fff;
+    background-color: #813AFE !important;
+    border-color: #813AFE !important;
+}
+
+.icon-img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 2rem;
+}
+
+
+@media screen and (max-width: 480px) {
+    .body {
+        padding-top: 0%;
+        margin-top: 0%;
+    }
+
+    .icon-img {
+        margin-top: 0%;
+        padding-top: 0%;
+        width: 100px;
+        height: 100px;
+        margin-bottom: 2rem;
+        z-index: 1;
+    }
+
+    .mb-3 {
+        align-items: center;
+        text-align: center;
+    }
+
+    .w-100 {
+        height: 150px;
+        width: 150px;
+    }
+
+    .title {
+        font-size: calc(16px + (24 - 16) * (100vw - 400px) / (800 - 400));
+    }
+}
