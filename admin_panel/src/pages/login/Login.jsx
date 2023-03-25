@@ -45,10 +45,10 @@ const Login = () => {
             response.data.details.username + "============================="
           );
           console.log("=-------------------------------")
-          // navigate({
-          //   pathname: "/",
-          // });
-          navigate("/")
+          navigate({
+            pathname: "/",
+          });
+//           navigate("/")
           console.log("=-------------------------------")
         }
       })
